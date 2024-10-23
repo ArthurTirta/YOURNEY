@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+       <style>
+        html{
+            background-color: aliceblue;
+            color: black;
+        }
+       </style>
+    
+       
+    </head>
+    <body>
+        
+        <nav id="navigation">
+            <div>
+                <h1>Yourney</h1>
+            </div>
+            <div id="tombol_nav">
+                <button onclick="scrollHome()">Home</button>
+                <button onclick="scrollOurPack()">Our Package</button>
+                <button onclick="scrollCallUs()">Call us</button>
+            </div>
+            <!-- <img src="assets\Pattern Heading.jpg" alt="gambar pola" title="ini adalah pola Linear Pattern"> -->
+            
+        </nav>
+
+    <main>
+        <div class="part1">
+
+            
+            <div id="Title">
+                <h2>You Trusted Travel Agent</h2>
+                <h6>Your happines is our happines</h6>
+            </div>
+            <div id="content">
+                
+                <section id="section-part1">
+                    <div id="autoslide">
+                        <div id="stock-image">
+                                <div class="gambar">
+
+                                    <img  src="assets\testimoni-1.jpg" alt="1">
+                                </div>
+                                
+                                <div class ="gambar">              
+
+                                    <img  src="assets\testimoni-2.jpg" alt="2">
+                                </div>
+                                
+                                <div class ="gambar">
+
+                                    <img  src="assets\testimoni-3.jpg" alt="3">
+                                </div>
+                                <div>
+                                </div>
+                            </div>
+                            <div id="button_image">
+
+                                <button id="previous" onclick="plusDivs(-1)"><</button>
+                                <button id="next" onclick="plusDivs(1)">></button>
+                            </div>
+                        </div>
+                    <div id="autoslide-2">
+
+                        <div class ="feedback">"Liburan Jadi Menyenangkan bersama Yourney"</div>
+                        <div class ="feedback">"Somuch Helpfull, Thankyou Yourney"</div>
+                        <div class ="feedback">"Cause Yourney i can see this easily"</div>
+                        <div id="Desc_Autos">
+                            <div id="title_desc_autos">
+                                <img class ="desc-img" src="assets\Person 1.jpeg" alt="any">
+                                <img class ="desc-img" src="assets\Person 2.jpeg" alt="any">
+                                <img class ="desc-img" src="assets\person3.jpeg" alt="any">
+                            </div>
+                            <div class="desc_desc_autos">
+                                <h5>Agnes Christie</h5>
+                                <h6>Ibu Rumah Tangga, 28</h6>
+                            </div>
+                            <div class="desc_desc_autos">
+                                <h5>Bela Lilith</h5>
+                                <h6>Pemuda, 19</h6>
+                            </div>
+                            <div class="desc_desc_autos">
+                                <h5>Cyana Mayunda</h5>
+                                <h6>Ibu Rumah Tangga, 20</h6>
+                            </div>
+                        </div>
+                            
+                    <div id="autoslide-3">
+                        <h3> Why someone choose us depend other's?</h3>
+                        <div id="feat-1">
+                            <div>
+                                <h1>1</h1>
+                            </div>
+                            <h6>Our brand leverages the latest advancements to provide seamless experiences, from intuitive interfaces to lightning-fast performance.</h6>
+                        </div>
+                        <div id="feat-2">
+                            <div>
+                                <h1>2</h1>
+                            </div>
+                            <h6>Tailored to your unique needs, our brand offers customized solutions that enhance efficiency and drive growth.</h6>
+                        </div>
+                        <div id="feat-3">
+                            <div>
+                                <h1>3</h1>
+                            </div>
+                            <h6>With 24/7 customer service, we’re committed to ensuring your satisfaction every step of the way. </h6>
+                        </div>
+                    </div>
+                
+                    
+                </div>
+            </section>
+            <form id="form-part1"   autocomplete="off" >
+                <h1> Contact Us</h1>
+                <h5>Sales akan menghubungi anda 1x24 jam setelah data kami terima </h5>
+                <label for="nama" >Your Name:</label>
+                <input type="text" id="id-nama" name="nama" placeholder="First and last name" autofocus >
+                <p id="warn-name">Anda belum mengisi nama</p>
+
+                <label for="email">Email Address: </label>
+                <input type="email" id="id-email" name="email" placeholder="example@email.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" >
+                <p id="warn-email">Anda belum mengisi email</p>
+
+                <label for="interested">What are you interested in?</label>
+                <select  id="id-interested" name="interested" placeholder="Select Option"  >
+                    <option value="" disabled selected>Select option</option>
+                    <option>Bali</option>
+                    <option>Bromo</option>
+                    <option>Toraja</option>
+                    <option>U.S.</option>
+                    <option>Morroco</option>
+                    <option>Italy</option>
+                </select>
+                <p id="warn-interest">Anda belum memilih </p>
+                
+                <button id="submit"  type="submit"  >SEND</button>
+            </form>
+        </div>
+            
+            
+        </div>
+        <div class="part2">
+            <div id="title-part2">
+                <h1>Our Package</h1>
+            </div>
+            <div id="country">
+                <div id="daerah1">
+
+                    <div class="name_c" id="Bali">
+                        <img class="img_c" src="assets\Bali.jpg" alt="any">
+                        <div>
+                            <h3 class="name_c">Bali</h3>
+                            <h6>An Indonesian island, Bali is a tropical paradise known for its lush rice terraces, stunning beaches, and vibrant Hindu culture. Visitors can explore ancient temples, enjoy water sports, and indulge in Balinese cuisine. Ubud, with its art scene and monkey forest, is a must-visit. </h6>
+                        </div>
+                    </div>
+                    <div class="name_c" id="Bromo">
+                        <img class="img_c"  src="assets\Bromo.jpg" alt="any">
+                        <div>
+                            <h3 class="name_c">Bromo</h3>
+                            <h6>Located in East Java, Indonesia, Mount Bromo is an active volcano surrounded by a vast, otherworldly landscape called the Sea of Sand. Visitors can hike to its crater rim for sunrise views and witness the smoking caldera. It’s a surreal experience! </h6>
+                        </div>
+                    </div>
+                    <div class="name_c" id="Toraja">
+                        <img class="img_c" src="assets\Toraja.jpg" alt="any">
+                        <div>
+                            <h3 class="name_c">Toraja</h3>
+                            <h6> In South Sulawesi, Indonesia, Tana Toraja is known for its unique culture and elaborate funeral ceremonies. The Toraja people have distinctive architecture, traditional houses called “tongkonan,” and intricate wood carvings. The region’s lush hills and rice terraces add to its charm.</h6>
+                        </div>
+                    </div>
+                </div>
+                <div  id="daerah2">
+
+                    <div class="name_c" id="Italy">
+                        <img class="img_c"  src="assets\Italy.jpg" alt="any">
+                        <div>
+                            <h3 class="name_c">Italy</h3>
+                            <h6>Known for its rich history, art, and cuisine, Italy is a country in southern Europe. It’s home to iconic landmarks like the Colosseum in Rome, the Leaning Tower of Pisa, and the canals of Venice. Italy is famous for its pasta, pizza, and gelato, as well as its beautiful coastlines along the Amalfi Coast and Cinque Terre. </h6>
+                        </div>
+                    </div>
+                    <div class="name_c" id="Morroco">
+                        <img class="img_c"  src="assets\Morroco.jpg" alt="any">
+                        <div>
+                            <h3 class="name_c">Morroco</h3>
+                            <h6>Located in North Africa, Morocco is a vibrant country with a mix of Arab, Berber, and European influences. Its bustling markets (souks), intricate architecture (such as in Marrakech), and the Sahara Desert are major attractions. Don’t miss out on trying traditional Moroccan mint tea!</h6>
+                        </div>
+                    </div>
+                    <div class="name_c" id="United States">
+                        <img class="img_c"  src="assets\United States.jpg" alt="any">
+                        <div>
+                            <h3 class="name_c">United States</h3>
+                            <h6>A diverse and vast country in North America, the United States is known for its cultural melting pot, natural wonders, and iconic cities. From the skyscrapers of New York City to the Grand Canyon in Arizona, there’s something for everyone. The U.S. is also famous for Hollywood, jazz music, and its national parks.</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="part3">
+            <h1>  From Pixels to Passport Stamps: Our Journey Ends, Yours Begins</h1>
+            <h3> Lets take a step to manage all you will need for travel and consider "What can you see on this website today will not you see again for next day so keep eye for that"  </h3>
+            <button id="call" onclick="scrollHome()" accesskey="w">Call To Action</button>
+        </div>
+        
+    </main>
+
+    <footer>
+        <div>
+            <h1>Yourney</h1>
+        </div>
+        <div>
+            <div>
+                <span>Term of Service</span>
+                <span>Privacy Policy</span>
+            </div>
+            <div>
+                <span>
+                    © 2024
+                </span>
+                <span>
+                    Yourney
+                </span>
+            </div>
+        </div>
+        
+    </footer>
+    <script type="text/javascript" src="js/script.js"></script>    
+</body>
+</html>
